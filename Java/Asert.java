@@ -1,4 +1,4 @@
-public class Assertt {
+public class Assert {
     void main() {
         IO.println(isWeekend(1)); // false
         IO.println(isWeekend(7)); // true
