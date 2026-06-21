@@ -1,0 +1,47 @@
+[System]
+Name='fis_subor2'
+Type='mamdani'
+Version=2.0
+NumInputs=2
+NumOutputs=1
+NumRules=9
+AndMethod='min'
+OrMethod='max'
+ImpMethod='min'
+AggMethod='max'
+DefuzzMethod='centroid'
+
+[Input1]
+Name='auta_zelena'
+Range=[0 35]
+NumMFs=3
+MF1='Malo':'trimf',[0 0 4]
+MF2='Stredne':'trimf',[2.5 10 22]
+MF3='Vela':'trimf',[16 35 35]
+
+[Input2]
+Name='auta_cervena'
+Range=[0 40]
+NumMFs=3
+MF1='Malo':'trimf',[0 0 9.5]
+MF2='Stredne':'trimf',[6.5 9.5 15]
+MF3='Vela':'trimf',[12 40 40]
+
+[Output1]
+Name='cas_zelenej'
+Range=[5 28]
+NumMFs=3
+MF1='Kratka':'trimf',[5 5 9]
+MF2='Stredna':'trimf',[8 13.5 18]
+MF3='Dlha':'trimf',[16 28 28]
+
+[Rules]
+1 1, 1 (1) : 1
+1 2, 1 (1) : 1
+1 3, 1 (1) : 1
+2 1, 3 (1) : 1
+2 2, 2 (1) : 1
+2 3, 2 (1) : 1
+3 1, 3 (1) : 1
+3 2, 2 (1) : 1
+3 3, 2 (1) : 1
