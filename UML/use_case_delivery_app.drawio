@@ -8,16 +8,16 @@
           <mxGeometry height="60" width="30" x="10" y="60" as="geometry" />
         </mxCell>
         <mxCell id="qk0c0lLQ0UMi_JgQgGGT-4" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;labelPerimeter=1;" value="Pracovník&lt;br&gt;zberného miesta" vertex="1">
-          <mxGeometry height="60" width="30" x="10" y="330" as="geometry" />
+          <mxGeometry height="60" width="30" x="10" y="360" as="geometry" />
         </mxCell>
         <mxCell id="qk0c0lLQ0UMi_JgQgGGT-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="580" width="820" x="80" y="-70" as="geometry" />
+          <mxGeometry height="620" width="820" x="80" y="-70" as="geometry" />
         </mxCell>
         <mxCell id="qk0c0lLQ0UMi_JgQgGGT-10" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;labelPerimeter=1;" value="Kuriér" vertex="1">
           <mxGeometry height="60" width="30" x="950" y="90" as="geometry" />
         </mxCell>
         <mxCell id="qk0c0lLQ0UMi_JgQgGGT-11" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;labelPerimeter=1;" value="Dispečer" vertex="1">
-          <mxGeometry height="60" width="30" x="950" y="420" as="geometry" />
+          <mxGeometry height="60" width="30" x="950" y="440" as="geometry" />
         </mxCell>
         <mxCell id="qk0c0lLQ0UMi_JgQgGGT-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="FASTER THAN ALZA" vertex="1">
           <mxGeometry height="30" width="130" x="80" y="-70" as="geometry" />
@@ -50,13 +50,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="qk0c0lLQ0UMi_JgQgGGT-19" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Vydať zásielku" vertex="1">
-          <mxGeometry height="80" width="120" x="160" y="320" as="geometry" />
+          <mxGeometry height="80" width="120" x="160" y="350" as="geometry" />
         </mxCell>
         <mxCell id="qk0c0lLQ0UMi_JgQgGGT-21" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Prijať a zaregistrovať zásielku" vertex="1">
-          <mxGeometry height="80" width="120" x="160" y="230" as="geometry" />
+          <mxGeometry height="80" width="120" x="160" y="260" as="geometry" />
         </mxCell>
         <mxCell id="qk0c0lLQ0UMi_JgQgGGT-23" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Evidovať odovzdanie hotovosti" vertex="1">
-          <mxGeometry height="80" width="120" x="160" y="410" as="geometry" />
+          <mxGeometry height="80" width="120" x="160" y="440" as="geometry" />
         </mxCell>
         <mxCell id="qk0c0lLQ0UMi_JgQgGGT-25" edge="1" parent="1" source="qk0c0lLQ0UMi_JgQgGGT-4" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="qk0c0lLQ0UMi_JgQgGGT-21" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
@@ -89,7 +89,7 @@
           <mxGeometry height="80" width="120" x="752" y="230" as="geometry" />
         </mxCell>
         <mxCell id="qk0c0lLQ0UMi_JgQgGGT-33" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Prideľovať úlohy kuriérom a vozidlám" vertex="1">
-          <mxGeometry height="80" width="120" x="752" y="410" as="geometry" />
+          <mxGeometry height="80" width="120" x="752" y="430" as="geometry" />
         </mxCell>
         <mxCell id="qk0c0lLQ0UMi_JgQgGGT-34" edge="1" parent="1" source="qk0c0lLQ0UMi_JgQgGGT-11" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="qk0c0lLQ0UMi_JgQgGGT-33" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
@@ -139,7 +139,7 @@
             <mxPoint x="842" y="110" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qk0c0lLQ0UMi_JgQgGGT-43" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Upozorniť na uplynutie lehoty" vertex="1">
+        <mxCell id="qk0c0lLQ0UMi_JgQgGGT-43" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Zobraziť upozornenie na uplynutie lehoty" vertex="1">
           <mxGeometry height="80" width="120" x="750" y="320" as="geometry" />
         </mxCell>
         <mxCell id="qk0c0lLQ0UMi_JgQgGGT-44" edge="1" parent="1" source="qk0c0lLQ0UMi_JgQgGGT-10" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="qk0c0lLQ0UMi_JgQgGGT-43" value="">
@@ -155,6 +155,12 @@
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="750" y="160" as="sourcePoint" />
             <mxPoint x="782" y="161" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xe3lbfgQXauxeoPQM1Pj-2" edge="1" parent="1" source="qk0c0lLQ0UMi_JgQgGGT-4" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="qk0c0lLQ0UMi_JgQgGGT-14" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="490" y="460" as="sourcePoint" />
+            <mxPoint x="540" y="410" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
